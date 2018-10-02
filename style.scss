@@ -1,3 +1,5 @@
+STYLE.SCS
+
 ---
 ---
 
@@ -18,18 +20,56 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+	background-image: url("https://www.wallpapersbrowse.com/images/av/av9munk.jpg") ;
+	background-attachment: fixed;
+	background-position: center;
+	font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
+  opacity: 0.8;
+  border-radius: 25px;
+  box-shadow: 20px 20px 10px rgba(162, 219, 194, 0.65);  
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
+  background: linear-gradient(to right, rgb(102, 255, 255), rgb(204, 153, 255));
+  padding: 20px;
+  border-bottom: 1.5px rgb(80, 65, 65);
+}
+table {
+    width: 100%;
+}
+//p.uppercase {
+//    text-transform: uppercase;
+//}
+th {
+   color: black;
+   background-color: rgba(102, 226, 162, 0.4);
+   height:60px;
+   vertical-align: middle;
+   border: 2px solid black;
 }
 
+table, td {
+   border: 2px solid black;
+  background-color: rgba(102, 226, 223, 0.4);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 18px;
+    text-align: left;
+}
+
+td {
+    vertical-align: center;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
